@@ -1,0 +1,25 @@
+{
+  "name": "account-service",
+  "version": "1.0.0",
+  "description": "Account Service",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=development nodemon app --ignore 'log/*.log' --ignore 'data/*.json'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lowdb": "^1.0.0",
+    "nodemon": "^1.19.1",
+    "roger-rabbit": "^2.0.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3"
+  }
+}

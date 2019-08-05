@@ -1,0 +1,12 @@
+version: '3'
+services:
+  account-service.local:
+    tty: true
+    stdin_open: true
+    container_name: account-service
+    build:
+      context: .
+    env_file:
+      - ./.env
+    volumes:
+      - .:/app
